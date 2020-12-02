@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+spacy = "*"
+spacy-lookups-data = "*"
+spacy-langdetect = "*"
+wordcloud = "*"
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+nltk = "*"
+jupyterlab = "*"
+sklearn = "*"
+joblib = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
