@@ -34,7 +34,7 @@ Lastly, the team used BERT for predictions. [This is the notebook](https://colab
 
 ### Result
 
-The team selected the model using BERT encodings with feed-forward neural network for predictions, since it had the highest public test score. Surprisingly, Naive Bayes model outperformed it (by xx points), so like the LSTM models it couldn't escape from overfitting the data.
+The team selected the model using BERT encodings with feed-forward neural network for predictions, since it had the highest public test score. Surprisingly, [Naive Bayes model](models/Naive Bayes of private test.ipynb) outperformed it (by 4,8 %), so like the LSTM models it couldn't escape from overfitting the data.
 
 ## Participants
 
