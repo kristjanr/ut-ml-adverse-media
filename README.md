@@ -10,15 +10,13 @@ This project is an attempt in automating the screening process described above. 
 
 ## Project
 
-This project is a part of data science competition, with processes similar to that of Kaggle. Original data consists of 977 adverse media and 642 non-adverse media articles, scraped through the web together with the participants of two other teams(10 people in total). It must be noted that this data is checked afterwards, again with all participants. The manual labelling and cross checks took a lot of time, but eventually provided fruitful results for data quality.
+This project is a part of data science competition, with processes similar to that of Kaggle. Original data consists of 977 adverse media and 642 non-adverse media articles, scraped through the web together with the participants of two other teams(10 people in total). It must be noted that this data was double-checked afterwards, again with all participants. The manual labelling and cross checks took a lot of time, but eventually provided fruitful results for data quality.
 
 The evaluation metric for the project is selected as f1 score.
 
 ### Data
 
 Training data can be found under the data folder with the names "adverse_media_training.csv.zip" and "non_adverse_media_training.csv.zip". The test datasets are self explanatory.
-
-(I could not move all the data through the GUI, someone with better git experience should move them under there)
 
 ### Preprocessing
 
