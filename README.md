@@ -16,21 +16,21 @@ The evaluation metric for the project is selected as f1 score.
 
 ### Data
 
-Training data can be found under the data folder with the names "adverse_media_training.csv.zip" and "non_adverse_media_training.csv.zip". The test datasets are self explanatory.
+Training data can be found under the data [data folder ](Data/) with the names ["adverse_media_training.csv.zip"](Data/adverse_media_training.csv.zip) and ["non_adverse_media_training.csv.zip"](Data/non_adverse_media_training.csv.zip). The test datasets are self explanatory.
 
 ### Preprocessing
 
-The notebook that does this can be found under the Data folder. It basically strips the text of stop words, some symbols, numbers and then turns every word into lowercase before lemmatizing them. Details of pre-processing can be found in the notebook.
+The [notebook that does this](Data/Data%20Prep%26Preprocessing.ipynb) can be found under the Data folder. It basically strips the text of stop words, some symbols, numbers and then turns every word into lowercase before lemmatizing them. Details of pre-processing can be found in the notebook.
 
 ### Models
 
-Severel models were used for the project. (They can be found under the models folder)
+Severel models were used for the project. (They can be found under the [models folder](models/))
 
 For baselines, the team used Naive Bayes and Logistic Regression in combination with tf-idf vectors. The highest public test scores obtained with them are 0.924 and 0.916, respectively. Though re-running those notebooks may give a different f1 score, since random seed parameter was not specified.
 
 The LSTM models followed them. Specifics of their architecture can be found in the respective notebooks, but essentially, one layer of bidirectional LSTMS with 100 units were used for detection. There are three of them; one LSTM notebook with Glove word vectors with its hyperparameters tuned, and two LSTM notebooks without Glove vectors. Unfortunately, these models overfitted the data, the best among them was LSTM with Glove vectors, which had a public test score of 0.869.
 
-Lastly, the team used BERT for predictions. (...)
+Lastly, the team used BERT for predictions. [This is the notebook](https://colab.research.google.com/drive/1Sj7E11SEyvDQlbJmki7pAR8thwX0P3Nb?usp=sharing) with private test set score.
 
 ### Result
 
